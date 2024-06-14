@@ -1,0 +1,28 @@
+ls -> check the file & folder under it ( in this .git file is not available
+ls -a -> in this .git file is available 
+rm -rf .git -> remove .git file
+git status -> check the status whetehr commit or add or not 
+git add . -> to add 
+git commit -m "first commit" -> commit 
+git push -u origin main  -> to push in the repo
+git --version -> git version in your pc
+which git -> location of git 
+git config --list -> find the username and email id 
+history -> all the command i have wrote in the terminal
+git log -> id (want to know the alphanumeric id)
+git add . && git commit -m "first commit"  -> we can add two statement ata time
+git branch -> name of the branch in which i am working
+git branch testfurstbranch -> create new branch
+git checkout testfirstbranch -> it will switch from master to new branch
+git checkout master -> switch to master branch
+git merge testfirstbranch -> merge new branch branch to main branch ( working branch should be master )
+git branch -d testfirstbranch -> delete branch
+touch stasshingdemo.txt -> to create new file
+git stash -> it will wipe out the code for temporary
+git stash list -> stash{0}-WIP-1 number of code that temporary wiped off
+git stash apply stash{0}-WIP-1 -> to get the old code
+git stash clear -> all ids clear
+git reset reseting.txt / git reset -> to undo the last mistake ( after add )/ reseting after git add . and before git commit
+git log --oneline -> to get the latest commit with id 
+git revert id -> to undo ( after git commit to go to the first stage that is before git add .) and id is taken from last step 
+
