@@ -25,4 +25,5 @@ git stash clear -> all ids clear
 git reset reseting.txt / git reset -> to undo the last mistake ( after add )/ reseting after git add . and before git commit
 git log --oneline -> to get the latest commit with id 
 git revert id -> to undo ( after git commit to go to the first stage that is before git add .) and id is taken from last step 
-
+git restore
+git show
